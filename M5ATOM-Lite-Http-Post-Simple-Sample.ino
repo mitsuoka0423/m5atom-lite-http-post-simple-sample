@@ -30,4 +30,4 @@ void setup() {
   post();
 }
 
-void loop() { /* 起動時 */}
+void loop() { /* 起動時にのみPOSTするので、loopでは何もしない。 */}
